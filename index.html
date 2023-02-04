@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="display_box">
+        <h1>Welcome to JS</h1>
+        <button onclick="random()">Say hi</button>
+        <button onclick="alert('hello guys')">Say hello</button>
+        <form onsubmit="sayIt(event)">
+            <label>
+                Say Something:
+                <input type="text" id="spokenText">
+            </label>
+        </form>
+        <p id="spoken"></p>
+    </div>
+    <div class="display_box">
+        <h2>Hover events</h2>
+        <h3>Using Css</h3>
+        <button class="turn-red">Turn Red</button>
+        <h3>using 35</h3>
+        <button onmouseover="turnBlue(this)">Turn Blue</button>
+        <button onmouseover="turnBlue(this)">Turn Me Blue</button>
+    </div>
+    
+</body>
+</html>
